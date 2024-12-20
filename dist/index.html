@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"> -->
+  <link rel="stylesheet" href="output.css">
+  <title>Jessica Foster | Software Engineer</title>
+</head>
+<body class="h-screen px-12 font-anaheim text-lg">
+
+  <!-- dot grid background code -->
+  <div class="absolute inset-0 -z-10 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_2px)] [background-size:19px_19px]"></div>
+
+  <!-- navigation -->
+
+  <header class="py-7 px-10">
+    <nav class="main-nav flex justify-between items-end space-x-7">
+      <span class="name cursor-pointer font-reenie-beanie text-4xl">jessica foster</span>
+      <ul class="menu flex row justify-between space-x-7 cursor-pointer font-reenie-beanie text-4xl">
+        <li class="menu-item relative px-2 before:absolute before:z-[-1] before:content-[''] before:bg-golden before:h-[20px] before:left-0 before:bottom-[-10px] before:w-0 before:opacity-70 before:transition-all before:duration-500 hover:before:w-full">About</li>
+        <li class="menu-item relative px-2 before:absolute before:z-[-1] before:content-[''] before:bg-blue-300 before:h-[20px] before:left-0 before:bottom-[-10px] before:w-0 before:opacity-70 before:transition-all before:duration-500 hover:before:w-full" >Blog</li>
+        <li class="menu-item relative px-2 before:absolute before:z-[-1] before:content-[''] before:bg-pink-300 before:h-[20px] before:left-0 before:bottom-[-10px] before:w-0 before:opacity-70 before:transition-all before:duration-500 hover:before:w-full">Projects</li>
+        <li class="menu-item relative px-2 before:absolute before:z-[-1] before:content-[''] before:bg-green-300 before:h-[20px] before:left-0 before:bottom-[-10px] before:w-0 before:opacity-70 before:transition-all before:duration-500 hover:before:w-full">Contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- bio section -->
+
+  <section class="hero p-10 flex justify-center items-center gap-75">
+    <section class="hero-bio w-1/2 flex flex-col max-w-xl text-left">
+      <h1 class="font-reenie-beanie text-6xl">Hey there! <span class="firstHighlight">I'm Jessica,</span> a developer based in the United States.</h1>
+      <p class="py-7">I love creating by way of coding, writing, and creating valuable content that can help others express themselves through technology. Some of my favorite technologies include JavaScript, Tailwind CSS, and   </p>
+      <div class="hero-buttons flex justify-evenly ml-[-55px] pt-5">
+        <button>Linkedin</button>
+        <button>GitHub</button>
+      </div>
+    </section>
+    <section class="bio-image w-1/2 flex flex-col items-center">
+      <img src="/assets/bio-image.png" alt="" class="headshot max-w-lg ml-20">
+      <!-- <span class="hover font-reenie-beanie text-4xl text-right">hover me</span> -->
+    </section>
+  </section>
+  <script type="module" src="https://unpkg.com/rough-notation?module"></script>
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
